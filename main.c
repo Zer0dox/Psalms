@@ -114,9 +114,6 @@ int generate_number() {
     double quantum_harmonic_osc = generate_and_calculate_4D_oscillation();
     double antoine = antoine_equation();
 
-    printf("Prime: %ld, Fib: %f, Trig: %f, Gravity: %f, Energy: %f, Lorentz: %f, Schrodinger: %f, Quantum: %f, Mixture: %f\n",
-           prime, fib, trig_result, gravity, energy, lorentz_result, creal(schrodinger_result), quantum_harmonic_osc, antoine);
-
     // Combine results and normalize to the range of 1 to 150
     double result = (trig_result * gravity * fib * energy * lorentz_result * (creal(schrodinger_result) + antoine) * prime);
     result = fabs(result);
