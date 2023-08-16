@@ -55,6 +55,12 @@ build CMakeFiles/Psalms.dir/main.c.o: C_COMPILER__Psalms_unscanned_Debug /Volume
   OBJECT_DIR = CMakeFiles/Psalms.dir
   OBJECT_FILE_DIR = CMakeFiles/Psalms.dir
 
+build CMakeFiles/Psalms.dir/durac.c.o: C_COMPILER__Psalms_unscanned_Debug /Volumes/G-DRIVE$ ArmorATD/Software$ Engineering/Psalms/durac.c || cmake_object_order_depends_target_Psalms
+  DEP_FILE = CMakeFiles/Psalms.dir/durac.c.o.d
+  FLAGS = -g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Psalms.dir
+  OBJECT_FILE_DIR = CMakeFiles/Psalms.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Psalms
@@ -63,7 +69,7 @@ build CMakeFiles/Psalms.dir/main.c.o: C_COMPILER__Psalms_unscanned_Debug /Volume
 #############################################
 # Link the executable Psalms
 
-build Psalms: C_EXECUTABLE_LINKER__Psalms_Debug CMakeFiles/Psalms.dir/main.c.o
+build Psalms: C_EXECUTABLE_LINKER__Psalms_Debug CMakeFiles/Psalms.dir/main.c.o CMakeFiles/Psalms.dir/durac.c.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   LINK_FLAGS = -L/usr/local/opt/libffi/lib
   OBJECT_DIR = CMakeFiles/Psalms.dir

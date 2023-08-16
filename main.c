@@ -3,6 +3,7 @@
 #include <math.h>
 #include <time.h>
 #include <complex.h>
+#include "durac.h"
 
 int is_prime(int n) {
 
@@ -115,7 +116,8 @@ int generate_number() {
     double antoine = antoine_equation();
 
     // Combine results and normalize to the range of 1 to 150
-    double result = (trig_result * gravity * fib * energy * lorentz_result * (creal(schrodinger_result) + antoine) * prime);
+    double result = trig_result * gravity * fib * energy * lorentz_result * (creal(schrodinger_result) + antoine) *
+                    (prime + (solve_dirac_5D()));
     result = fabs(result);
     result = fmod(result, 150) + 1;
     return (int)result;
