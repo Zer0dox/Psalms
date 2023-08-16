@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/zyantos/CLionProjects/Psalms/cmake-build-debug"
+			"value" : "/Volumes/G-DRIVE ArmorATD/Software Engineering/Psalms/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zyantos/CLionProjects/Psalms/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Volumes/G-DRIVE ArmorATD/Software Engineering/Psalms/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/zyantos/CLionProjects/Psalms"
+			"value" : "/Volumes/G-DRIVE ArmorATD/Software Engineering/Psalms"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zyantos/CLionProjects/Psalms/cmake-build-debug"
+			"value" : "/Volumes/G-DRIVE ArmorATD/Software Engineering/Psalms/cmake-build-debug"
 		},
 		{
 			"name" : "Psalms_IS_TOP_LEVEL",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zyantos/CLionProjects/Psalms"
+			"value" : "/Volumes/G-DRIVE ArmorATD/Software Engineering/Psalms"
 		}
 	],
 	"kind" : "cache",
